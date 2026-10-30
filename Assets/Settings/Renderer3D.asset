@@ -1,5 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-3088720700418426334
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91d10f64adf50cc4aa5c9d900b87768a, type: 3}
+  m_Name: AsciiFx
+  m_EditorClassIdentifier: Ascii.Runtime::VolFx.AsciiFx
+  m_Active: 1
+  _event: 600
+  _pass: {fileID: 1641762549323918427}
+  _blitShader: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24,8 +40,9 @@ MonoBehaviour:
     probeSamplingDebugMesh: {fileID: -3555484719484374845, guid: 57d7c4c16e2765b47a4d2069b311bffe, type: 3}
     probeSamplingDebugTexture: {fileID: 2800000, guid: 24ec0e140fb444a44ab96ee80844e18e, type: 3}
     probeVolumeBlendStatesCS: {fileID: 0}
-  m_RendererFeatures: []
-  m_RendererFeatureMap: 
+  m_RendererFeatures:
+  - {fileID: -3088720700418426334}
+  m_RendererFeatureMap: 22fa2941e3a822d5
   m_UseNativeRenderPass: 0
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
@@ -54,3 +71,51 @@ MonoBehaviour:
   m_DepthTextureFormat: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 0
+--- !u!114 &1641762549323918427
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98d6139e81eeae4ca43472e7467e46e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Ascii.Runtime::VolFx.AsciiPass
+  _shader: {fileID: 4800000, guid: e3111a8d989e6a547a827386135ea0f8, type: 3}
+  _noiseScale: 0.5
+  _absolute: 1
+  _gradient: {fileID: 2800000, guid: 0a795d9de0702d840bb9093bf015c355, type: 3}
+  _palette:
+    enabled: 0
+    value: {fileID: 2800000, guid: 375120ba5ec0f1d4eaa7f761d1a3d758, type: 3}
+  _depth: 1
+  _scale: 1
+  _scaleLerp:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.0369
+      outSlope: 0.0369
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0
+      outWeight: 0.8459
+    - serializedVersion: 3
+      time: 1
+      value: 0.5
+      inSlope: 56.8515
+      outSlope: 56.8515
+      tangentMode: 0
+      weightedMode: 3
+      inWeight: 0.0104
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  _frameRate: 0
+  _ascii: {r: 1, g: 1, b: 1, a: 1}
+  _image: {r: 0, g: 0, b: 0, a: 1}

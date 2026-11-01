@@ -28,13 +28,14 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _EMISSION
   - _METALLICSPECGLOSSMAP
   - _NORMALMAP
   m_InvalidKeywords: []
-  m_LightmapFlags: 0
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: 2000
   stringTagMap:
     MotionVector: User
     RenderType: Opaque
@@ -93,7 +94,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 5f3a10fe4d2f43eaba79b15c982aa4c4, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissiveColorMap:
@@ -211,7 +212,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _CoatMask: 0
     - _ConservativeDepthOffsetEnable: 0
-    - _Cull: 2
+    - _Cull: 0
     - _CullMode: 2
     - _CullModeForward: 2
     - _Cutoff: 0.5
@@ -340,7 +341,7 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _DiffusionProfileAsset: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.6988599, g: 0.261209, b: 0, a: 1}
     - _Emissive: {r: 0, g: 0, b: 0, a: 0}
     - _EmissiveColor: {r: 0, g: 0, b: 0, a: 1}
     - _EmissiveColorLDR: {r: 0, g: 0, b: 0, a: 1}

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeProjectFlavorService">
+    <option name="flavorId" value="CMakePlainProjectFlavor" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb012b31-021a-4a6b-a617-2bcf027862e2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Lighting Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/New Lighting Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/ReflectionProbe-0.exr.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Demo/Demo_Scene/Global Volume Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Demo/Demo_Scene/Global Volume Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Materials/Glass 1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Materials/Glass 1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Materials/Glass.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Materials/Glass.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Materials/Mat_Decors_1.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Materials/Mat_Decors_1.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/antique_light.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/antique_light.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_4.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_5.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_5.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_6.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_6.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_7.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_7.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_8.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_8.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_9.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/book_9.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/bookshelf.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/bookshelf.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/carpet_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/carpet_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/carpet_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/carpet_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/carpet_3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/carpet_3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceiling_big.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceiling_big.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceiling_rectangle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceiling_rectangle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceiling_small.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceiling_small.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceramic_tea_glass.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceramic_tea_glass.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceramic_teapot.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/ceramic_teapot.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/clock_wall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/clock_wall.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/curtain_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_big.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_big.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_rectangle.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_rectangle.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_small.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/floor_small.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/gramophone.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/gramophone.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/light_desk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/light_desk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/light_tall.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/light_tall.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_4.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_5.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_5.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_6.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/painting_6.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/phone.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/phone.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_4.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_4.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_5.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_5.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_frame_desk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_frame_desk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/sofa_big.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/sofa_big.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/sofa_small.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/sofa_small.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/tea_table.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/tea_table.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/tv.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/tv.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/tv_desk.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/tv_desk.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/vase_1.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/vase_1.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/vase_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/vase_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/vase_3.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/vase_3.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_double.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_corner_double.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default_2.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_default_2.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_big_door.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_big_door.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_one_window.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_one_window.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_small_door.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_small_door.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_two_window.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/wall_with_two_window.fbx.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Settings/Renderer3D.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Settings/Renderer3D.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PackageManagerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ofeerist&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ofeerist/ASCII_Extraction.git&quot;,
+    &quot;accountId&quot;: &quot;f8cfa076-9735-4d6c-935a-54deebad4a26&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Rendering/SceneAscii/SceneAsciiFeature.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/Artyom/RiderProjects/ASCII_Extraction/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Demo/Demo_Scene/Global Volume Profile.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/Artyom/RiderProjects/ASCII_Extraction/Assets/Scenes/ZNS3D/Vintage Living Room Game Pack/Meshes/photo_4.fbx.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/Artyom/RiderProjects/ASCII_Extraction/ProjectSettings/PackageManagerSettings.asset" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3LV7Ye5r5UQif0kKoBqVai6I7of" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "develop",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb012b31-021a-4a6b-a617-2bcf027862e2" name="Changes" comment="" />
+      <created>1793527430497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1793527430497</updated>
+      <workItem from="1793527430755" duration="84000" />
+      <workItem from="1793529173540" duration="1467000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityProjectDiscoverer">
+    <option name="unityProjectFolder" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

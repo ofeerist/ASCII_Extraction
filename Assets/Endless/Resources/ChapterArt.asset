@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ac906bb73b6422cca1601a9f3e5344d, type: 3}
+  m_Name: ChapterArt
+  m_EditorClassIdentifier: Pawnshop.Endless::Pawnshop.Endless.ChapterArt
+  props:
+  - {fileID: 8866188851930244280, guid: a4b1276aff9e45d40818904c02bf6545, type: 3}
+  - {fileID: 3033273108864270443, guid: 1e2193ab3a7eb184499ab33466e8f6f9, type: 3}
+  - {fileID: 1062339710358336084, guid: 6d0d85c7125dc534380e6015547d6bd9, type: 3}
+  - {fileID: 100000, guid: e40fa0edf8a05e246b4f2025b5acdf75, type: 3}
+  - {fileID: 0}
+  - {fileID: 2286645027300065555, guid: 844e877a21f48ec4590694e9da1b56d7, type: 3}
+  - {fileID: 0}
+  - {fileID: 4130218664092095341, guid: 84f186186acadc941a2e59ce12ace979, type: 3}
+  - {fileID: 0}
+  - {fileID: 100000, guid: e40fa0edf8a05e246b4f2025b5acdf75, type: 3}

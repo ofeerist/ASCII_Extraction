@@ -1,0 +1,1 @@
+{"name": "Pawnshop.Endless", "rootNamespace": "Pawnshop.Endless", "references": ["Pawnshop.Dialogue", "Unity.InputSystem", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"]}

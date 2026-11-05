@@ -18,6 +18,7 @@ Shader "Hidden/Extraction/SceneAscii"
             float4 _Tone; // exposure multiplier, contrast, adaptive ink
             float4 _Ink;
             float4 _SourceSize;
+            float4 _QuestLens; // pointer viewport xy, radius in screen-height units, tool: 1 loupe / 2 UV / 3 reagent
 
             half4 Scene(float2 uv)
             {
@@ -55,8 +56,20 @@ Shader "Hidden/Extraction/SceneAscii"
             {
                 UNITY_SETUP_STEREO_EYE_INDEX_POST_VERTEX(input);
                 float2 uv = (input.texcoord - _BlitScaleBias.zw) / _BlitScaleBias.xy;
-                float2 grid = _SourceSize.xy / _Cell.xy;
-                float2 position = uv * grid;
+                float2 lensCenter=_QuestLens.xy;
+#if UNITY_UV_STARTS_AT_TOP
+                lensCenter.y=1-lensCenter.y;
+#endif
+                float aspect=_SourceSize.x/max(1,_SourceSize.y);
+                float lensDistance=length((uv-lensCenter)*float2(aspect,1));
+                float lensOn=step(.5,_QuestLens.w)*(1-smoothstep(_QuestLens.z-.008,_QuestLens.z,lensDistance));
+                float loupe=lensOn*(1-step(1.5,_QuestLens.w));
+                float ultraviolet=lensOn*step(1.5,_QuestLens.w)*(1-step(2.5,_QuestLens.w));
+                float reagent=lensOn*step(2.5,_QuestLens.w);
+                // Magnification and finer ASCII cells are local to the moving lens.
+                float2 sampleUV=lerp(uv,lensCenter+(uv-lensCenter)*.45,loupe);
+                float2 grid = _SourceSize.xy / lerp(_Cell.xy,_Cell.xy*.55,loupe);
+                float2 position = sampleUV * grid;
                 float2 center = (floor(position) + 0.5) / grid;
                 float2 offset = 0.3 / grid;
                 half4 scene = (Scene(center) + Scene(center + offset) + Scene(center - offset)
@@ -74,6 +87,7 @@ Shader "Hidden/Extraction/SceneAscii"
 #if UNITY_UV_STARTS_AT_TOP
                 glyphUV.y = 1.0 - glyphUV.y;
 #endif
+                brightness=saturate(brightness+ultraviolet*.20+reagent*.08);
                 float mask = text_glyph(glyphUV, brightness);
                 half3 background = scene.rgb * _Cell.z;
                 float backgroundLuma = dot(background, float3(0.299, 0.587, 0.114));
@@ -82,9 +96,13 @@ Shader "Hidden/Extraction/SceneAscii"
                 half3 ink = _Ink.rgb;
                 if (_Tone.z > 0.5 && abs(backgroundLuma - 0.01) > abs(backgroundLuma - inkLuma))
                     ink = half3(0.01, 0.01, 0.01);
+                ink=lerp(ink,half3(.65,.35,1),ultraviolet);
+                ink=lerp(ink,half3(1,.73,.2),reagent);
                 half4 result = half4(lerp(background, ink, mask), scene.a);
                 if (_Cell.w < 1.0)
                     result = lerp(Scene(uv), result, _Cell.w);
+                float rim=step(.5,_QuestLens.w)*(1-smoothstep(.001,.004,abs(lensDistance-_QuestLens.z)));
+                result.rgb=lerp(result.rgb,_QuestLens.w<1.5?half3(.9,.8,.4):_QuestLens.w<2.5?half3(.65,.3,1):half3(1,.65,.2),rim);
                 return result;
             }
             ENDHLSL

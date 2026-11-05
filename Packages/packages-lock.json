@@ -145,6 +145,14 @@
       "source": "builtin",
       "dependencies": {}
     },
+    "com.unity.graphtoolkit": {
+      "version": "file:com.unity.graphtoolkit",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {
+        "com.unity.modules.uielements": "1.0.0"
+      }
+    },
     "com.unity.ide.rider": {
       "version": "3.0.40",
       "depth": 0,

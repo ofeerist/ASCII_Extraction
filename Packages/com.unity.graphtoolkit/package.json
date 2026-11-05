@@ -1,0 +1,39 @@
+{
+  "name": "com.unity.graphtoolkit",
+  "displayName": "Graph Toolkit",
+  "version": "0.4.0-exp.2",
+  "unity": "6000.2",
+  "unityRelease": "0a9",
+  "description": "The Graph Toolkit package provides a comprehensive set of APIs that developers can use to create graph editing tools. This framework allows you to create tailored, node-based workflows. It handles the foundational basics so you can spend less time on setup and more time building graph solutions.\n\nBy default any graph tools built with this package conform to Unity UI and UX standards, ensuring consistency and quality. However, there is also lots of room for customization to fit the needs of unique projects.",
+  "dependencies": {
+    "com.unity.modules.uielements": "1.0.0"
+  },
+  "relatedPackages": {
+    "com.unity.graphtoolkit.tests": "0.4.0-exp.2"
+  },
+  "_upm": {
+    "changelog": "### Changed\n\n* The \"Create Local Subgraph from Selection\" menu item now appears in the contextual (right-click) menu for context nodes.\n\n### Fixed\n\n* Contextual menus previously only displayed menu items related to the graph canvas. Now, contextual menus correctly display menu items relevant to the current context.\n* If you use [UseWithContext] on a BlockNode with a ContextNode type, the BlockNode is now compatible with all ContextNodes derived from that ContextNode type as well.\n* Fixed null pointer error when loading a graph asset.\n* The contextual menu items \"Create Opposite Portal\", \"Revert to Wire\", and \"Revert All to Wires\" now correctly appear in the contextual menus for portals.\n* Fixed an exception when an input port and an option have the same name."
+  },
+  "upmCi": {
+    "footprint": "89157ae3495933501613371189ae749b2a8d51bc"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.graphtoolkit@0.4/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/com.unity.motion.git",
+    "type": "git",
+    "revision": "1155ebf1216d10710553855c44f5f98f06d36ddc"
+  },
+  "samples": [
+    {
+      "displayName": "TextureMaker Sample",
+      "description": "A sample illustrating how to create a graph tool with basic texture generation",
+      "path": "Samples~/TextureMaker"
+    },
+    {
+      "displayName": "VisualNovelDirector Sample",
+      "description": "This sample describes how to use Graph Toolkit with a custom runtime.",
+      "path": "Samples~/VisualNovelDirector"
+    }
+  ],
+  "_fingerprint": "d558729b58df259d92375d3b928068139817a142"
+}

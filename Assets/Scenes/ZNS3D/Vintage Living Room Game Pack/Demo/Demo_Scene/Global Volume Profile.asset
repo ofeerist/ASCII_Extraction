@@ -15,7 +15,7 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: 0.3
   contrast:
     m_OverrideState: 1
     m_Value: 1
@@ -49,7 +49,7 @@ MonoBehaviour:
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 0.1
+    m_Value: 4
   scatter:
     m_OverrideState: 1
     m_Value: 0.7
@@ -223,22 +223,22 @@ MonoBehaviour:
     m_Value: 1
   characterHeight:
     m_OverrideState: 1
-    m_Value: 20
+    m_Value: 12
   backgroundBrightness:
     m_OverrideState: 1
-    m_Value: 0.65
+    m_Value: 0.3
   ink:
     m_OverrideState: 1
     m_Value: {r: 0.85, g: 0.9, b: 0.8, a: 1}
   adaptiveInk:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 0
   exposure:
     m_OverrideState: 1
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 1.2
 --- !u!114 &-5472738718927553229
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -519,10 +519,10 @@ MonoBehaviour:
   m_Name: Global Volume Profile
   m_EditorClassIdentifier: 
   components:
+  - {fileID: -5736416063985292695}
   - {fileID: -7051632563357515880}
   - {fileID: 2228997693530277710}
   - {fileID: -8707666610653959271}
-  - {fileID: -5736416063985292695}
 --- !u!114 &819044419849433910
 MonoBehaviour:
   m_ObjectHideFlags: 3

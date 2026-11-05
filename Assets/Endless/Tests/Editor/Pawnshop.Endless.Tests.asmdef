@@ -1,0 +1,1 @@
+{"name":"Pawnshop.Endless.Tests","references":["Pawnshop.Endless","Pawnshop.Dialogue"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"]}

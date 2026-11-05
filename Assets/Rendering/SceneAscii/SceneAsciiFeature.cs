@@ -30,7 +30,7 @@ namespace Extraction.Rendering
                 (camera.cameraType != CameraType.Game && camera.cameraType != CameraType.SceneView))
                 return;
             // This is the game's rendering style; Scene View still respects its effects toggle.
-            if (camera.isSceneViewCamera && !camera.postProcessEnabled)
+            if (!camera.postProcessEnabled)
                 return;
             var settings = VolumeManager.instance.stack.GetComponent<SceneAsciiVolume>();
             if (settings != null && settings.IsActive())

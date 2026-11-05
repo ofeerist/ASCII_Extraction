@@ -1,0 +1,1 @@
+{"name": "Pawnshop.Endless.Editor", "references": ["Pawnshop.Endless", "Pawnshop.Dialogue", "Pawnshop.Dialogue.Editor", "Unity.GraphToolkit.Editor", "Unity.GraphToolkit.Common.Editor", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"], "includePlatforms": ["Editor"]}

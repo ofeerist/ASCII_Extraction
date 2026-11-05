@@ -1,0 +1,57 @@
+Label { padding: 0; margin: 0; }
+.screen { flex-grow: 1; background-color: rgb(12, 17, 18); color: rgb(214, 222, 202); font-size: 16px; }
+.header { background-color: rgb(19, 29, 29); padding: 10px 24px 8px 24px; border-bottom-width: 1px; border-bottom-color: rgb(80, 103, 86); }
+.brand { font-size: 25px; -unity-font-style: bold; letter-spacing: 3px; color: rgb(218, 189, 124); }
+.eyebrow { font-size: 11px; letter-spacing: 2px; color: rgb(137, 159, 145); margin-top: 5px; }
+.metrics { flex-direction: row; flex-wrap: wrap; background-color: rgb(25, 37, 34); padding: 8px 24px; }
+.metric { margin-right: 28px; font-size: 17px; -unity-font-style: bold; }
+.nav { flex-direction: row; flex-wrap: wrap; padding: 2px 22px; background-color: rgb(15, 23, 23); }
+.content { flex-grow: 1; padding: 12px 24px; }
+.card { background-color: rgb(22, 31, 30); border-width: 1px; border-color: rgb(51, 68, 59); border-radius: 5px; padding: 18px; margin-bottom: 14px; }
+.hero { padding: 30px; }
+.title { font-size: 30px; letter-spacing: 2px; -unity-font-style: bold; color: rgb(224, 200, 148); margin-bottom: 18px; }
+.section-title { font-size: 18px; -unity-font-style: bold; color: rgb(204, 189, 144); margin-bottom: 10px; margin-top: 5px; white-space: normal; }
+.body { white-space: normal; margin-bottom: 9px; }
+.lead { font-size: 20px; white-space: normal; margin: 10px 0 16px 0; }
+.quote { font-size: 18px; -unity-font-style: italic; white-space: normal; color: rgb(171, 190, 173); margin-bottom: 18px; }
+.muted { font-size: 13px; color: rgb(149, 168, 155); white-space: normal; margin-bottom: 8px; }
+.notice { color: rgb(236, 214, 160); background-color: rgb(43, 44, 30); padding: 12px; margin-bottom: 14px; white-space: normal; }
+.warning { color: rgb(234, 182, 122); white-space: normal; margin: 8px 0; }
+.haunt { color: rgb(177, 130, 138); letter-spacing: 3px; white-space: normal; margin-bottom: 14px; }
+.columns { flex-direction: row; flex-wrap: wrap; }
+.column { flex-grow: 1; flex-basis: 45%; min-width: 330px; margin-right: 12px; }
+.row { flex-direction: row; flex-wrap: wrap; margin: 5px 0; }
+Button { background-color: rgb(38, 56, 47); color: rgb(222, 230, 208); border-width: 1px; border-color: rgb(80, 103, 85); border-radius: 3px; padding: 6px 12px; margin: 4px 6px 4px 0; min-height: 38px; white-space: normal; font-size: 15px; }
+Button:hover { background-color: rgb(61, 82, 62); border-color: rgb(202, 184, 124); }
+Button:focus { border-color: rgb(243, 216, 138); border-width: 2px; }
+Button:disabled { opacity: 0.4; }
+Button.primary { background-color: rgb(153, 125, 67); color: rgb(18, 23, 18); -unity-font-style: bold; }
+Button.active { border-color: rgb(229, 202, 131); background-color: rgb(68, 78, 51); }
+Button.danger { background-color: rgb(79, 42, 43); border-color: rgb(141, 79, 72); }
+.stock-grid { flex-direction: row; flex-wrap: wrap; }
+Button.slot { flex-basis: 23%; min-width: 165px; min-height: 100px; -unity-text-align: middle-left; }
+.unity-base-field { margin: 8px 0; min-height: 30px; }
+.unity-base-field__label { min-width: 110px; color: rgb(193, 204, 187); }
+.unity-base-field__input { min-width: 130px; background-color: rgb(11, 19, 17); color: rgb(229, 235, 211); padding: 5px; }
+.closing { border-left-width: 3px; border-left-color: rgb(166, 138, 76); margin-top: 18px; }
+.ledger-line { white-space: normal; margin-bottom: 12px; padding-bottom: 9px; border-bottom-width: 1px; border-bottom-color: rgb(41, 56, 47); font-size: 14px; }
+.footer { padding: 6px 26px; border-top-width: 1px; border-top-color: rgb(51, 68, 59); }
+.modal-shade { position: absolute; left: 0; right: 0; top: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.85); align-items: center; justify-content: center; }
+.modal { width: 620px; max-width: 90%; padding: 28px; border-color: rgb(180, 151, 87); }
+
+.header, .metrics, .nav, .footer { flex-shrink: 0; }
+.content { min-height: 0; flex-basis: 0; }
+.unity-scroller--vertical { width: 12px; }
+.unity-scroller__low-button, .unity-scroller__high-button { display: none; }
+.unity-base-slider__tracker { background-color: rgb(17, 26, 23); }
+.unity-base-slider__dragger { background-color: rgb(91, 112, 92); border-radius: 3px; }
+
+.bulletin { padding: 10px 14px 1px 14px; margin-bottom: 12px; background-color: rgb(25, 37, 34); border-left-width: 2px; border-left-color: rgb(152, 133, 85); }
+.house-screen { flex-grow: 1; color: rgb(222, 228, 210); font-size: 15px; }
+.house-hud { position: absolute; left: 0; right: 0; top: 0; padding: 10px 20px; background-color: rgba(8, 13, 12, 0.88); }
+.house-crosshair { position: absolute; left: 49.5%; top: 48%; font-size: 23px; color: rgb(235, 218, 161); }
+.house-hint { position: absolute; left: 20px; right: 20px; bottom: 10px; padding: 8px 16px; background-color: rgba(8, 13, 12, 0.85); }
+.house-panel { position: absolute; left: 12%; right: 12%; top: 90px; bottom: 12px; padding: 20px; background-color: rgba(14, 23, 21, 0.98); border-width: 1px; border-color: rgb(145, 128, 83); }
+.house-panel > ScrollView { flex-grow: 1; min-height: 0; }
+.house-door-panel { left: 52%; right: 2%; }
+.house-focus-controls { position: absolute; left: 10%; right: 10%; bottom: 5px; padding: 8px 16px; background-color: rgba(8, 13, 12, 0.92); }

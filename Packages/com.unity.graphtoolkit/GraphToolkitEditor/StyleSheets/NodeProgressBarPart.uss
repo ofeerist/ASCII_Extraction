@@ -1,0 +1,14 @@
+﻿.ge-node-progress-bar {
+    height: 15px;
+    flex-direction: row;
+    background-color: var(--unity-colors-progress_bar-background);
+    --debug-background-alpha: 0.3;
+}
+
+.ge-node-progress-bar__progress {
+    background-color: var(--unity-colors-progress_bar-background);
+    flex-basis: auto;
+    border-right-color: white;
+    border-right-width: 5px;
+}
+

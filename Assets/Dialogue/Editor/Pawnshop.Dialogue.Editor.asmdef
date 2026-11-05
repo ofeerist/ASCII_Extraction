@@ -1,0 +1,1 @@
+{"name":"Pawnshop.Dialogue.Editor","rootNamespace":"Pawnshop.Dialogue.Editor","references":["Pawnshop.Dialogue","Unity.GraphToolkit.Editor","Unity.GraphToolkit.Common.Editor"],"includePlatforms":["Editor"]}

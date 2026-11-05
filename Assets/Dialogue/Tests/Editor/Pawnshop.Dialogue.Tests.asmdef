@@ -1,0 +1,1 @@
+{"name":"Pawnshop.Dialogue.Tests","references":["Pawnshop.Dialogue","Pawnshop.Dialogue.Editor"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"]}
